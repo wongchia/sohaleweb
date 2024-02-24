@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="keywords" content="此刻心app,王嘉">
+<link rel="icon" href="soicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="soicon.ico" type="image/x-icon">
+<title>此刻心</title>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: linear-gradient(to bottom, #FDF9EE, #FFEEEE);
+            position: relative;
+        }
+        
+        .container {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .icon {
+            width: 100px;
+            height: 100px;
+        }
+
+        .download {
+            width: 150px;
+            height: 50px;
+        }
+
+        .sohale {
+            min-width: 500px; 
+            max-width: 1100px; /* 设置最大宽度 */
+            width: 100%; /* 设置为100%以相对于其容器宽度进行缩放 */
+            height: auto; /* 使用 auto 保持图片的比例 */
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <img src="sohale.png" alt="Sohale" class="sohale">
+    <div class="container">
+        <img src="icon.png" alt="Icon" class="icon">
+        <h1>此刻心</h1>
+        <img src="download.png" alt="Download" class="download">
+    </div>
+</body>
+</html>
